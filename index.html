@@ -27,13 +27,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Bikin
-  * Updated: Sep 18 2023 with Bootstrap v5.3.2
-  * Template URL: https://bootstrapmade.com/bikin-free-simple-landing-page-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -51,7 +44,7 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#abstract">Abstract</a></li>
           <li><a class="nav-link scrollto " href="#SUM">SUM</a></li>
-          <li><a class="nav-link scrollto" href="#Ablation">Ablation Study</a></li>
+<!--          <li><a class="nav-link scrollto" href="#Ablation">Ablation Study</a></li>-->
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -60,26 +53,26 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex align-items-center">
 
-    <div class="container d-flex flex-column align-items-center justify-content-center" data-aos="fade-up">
-      <h1>SUM:Saliency Unification through Mamba for Visual Content Prediction</h1>
-      <h2>
-        <a href="https://arhosseini77.github.io/">Alireza Hosseini</a>,
-        <a href="https://arhosseini77.github.io/">Alireza Hosseini</a>,
-        <a href="https://arhosseini77.github.io/">Alireza Hosseini</a>
-      <h2>
+  <div class="container d-flex flex-column align-items-center justify-content-center" data-aos="fade-up">
+    <h1 style="font-family: Arial, sans-serif; font-size: 2em;">SUM: Saliency Unification through Mamba for Visual Content Prediction</h1>
+    <h2>
+      <a href="https://arhosseini77.github.io/">Alireza Hosseini</a>,
+      <a href="https://arhosseini77.github.io/">Alireza Hosseini</a>,
+      <a href="https://arhosseini77.github.io/">Alireza Hosseini</a>
+    </h2>
 
-        <span class="btn-group">
-        <a href="https://arxiv.org/abs/2403.02336" class="btn-get-started scrollto" style="margin-right: 10px;">Paper</a>
-        <a href="https://github.com/Arhosseini77/sum" class="btn-get-started scrollto" style="margin-right: 10px;">Code</a>
-      </span>
-
-      <img src="assets/img/Model_v1.png" class="img-fluid hero-img" alt="" data-aos="zoom-in" data-aos-delay="150">
+    <div class="btn-group">
+      <a href="https://arxiv.org/abs/2403.02336" class="btn-get-started scrollto" style="margin-right: 10px;">Paper</a>
+      <a href="https://github.com/Arhosseini77/sum" class="btn-get-started scrollto" style="margin-right: 10px;">Code</a>
     </div>
 
-  </section><!-- End Hero -->
+    <img src="assets/img/Model_v1.png" class="img-fluid hero-img" alt="" data-aos="zoom-in" data-aos-delay="150">
+  </div>
+
+</section><!-- End Hero -->
 
   <main id="main">
 
@@ -117,18 +110,22 @@
     <!-- ======= Modules Section ======= -->
     <section id="SUM" class="features" data-aos="fade-up">
       <div class="container">
-        <div class="row">
-          <!-- Module 1: Logo-Detection -->
-          <div class="col-md-12" data-aos="fade-up" data-aos-delay="100">
-            <h2>Evaluation & Visualization</h2>
-            <p>We conducted comprehensive testing of our universal model, SUM, across six different datasets, each benchmarked against state-of-the-art models. These datasets cover various areas including natural scenes, user interfaces, and e-commerce. SUM consistently outperformed existing models, achieving top results in 27 out of 30 metrics and securing second place in the remaining three. This highlights the model's effectiveness and versatility across different types of data, setting a new standard in the field. Additionally, compared to other models, SUM is relatively efficient, leveraging Mamba's capabilities to create a model that is robust, efficient, and universally applicable.</p>
-            <div class="text-center">
-              <img src="assets/img/tables/sum_result_table.png" alt="Saliency prediction performance across various datasets" class="img-fluid">
-              <p class="table-caption">Saliency prediction performance across various datasets</p>
-            </div>
+      <div class="row">
+        <div class="col-md-12" data-aos="fade-up" data-aos-delay="100">
+          <h2>Evaluation & Visualization</h2>
+          <p>
+            We conducted comprehensive testing of our universal model, SUM, across six different datasets, each benchmarked against state-of-the-art models. These datasets cover various areas including natural scenes, user interfaces, and e-commerce. SUM consistently outperformed existing models, achieving top results in 27 out of 30 metrics and securing second place in the remaining three. This highlights the model's effectiveness and versatility across different types of data, setting a new standard in the field. Additionally, compared to other models, SUM is relatively efficient, leveraging Mamba's capabilities to create a model that is robust, efficient, and universally applicable.
+          </p>
+          <div class="text-center">
+            <img src="assets/img/tables/sum_result_table.png" alt="Saliency prediction performance across various datasets" class="img-fluid">
+            <p class="table-caption">Saliency prediction performance across various datasets</p>
+          </div>
+        </div>
+      </div>
 
+      <hr>
             <!-- Performance Evaluation and Visualization Section -->
-            <h2>Natural Scene Mouse Data</h2>
+           <h2 style="font-size: 1.5em; text-align: center;">Natural Scene Mouse Data</h2>
             <div id="carousel-mouse-data" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <!-- Slide 1 -->
@@ -230,7 +227,7 @@
             </div>
 
 
-            <h2>Natural Scene Eye Data</h2>
+            <h2 style="font-size: 1.5em; text-align: center;">Natural Scene Eye Data</h2>
             <div id="carousel-eye-data" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <!-- Slide 1 -->
@@ -316,7 +313,7 @@
 
 
 
-             <h2>E-Commercial</h2>
+            <h2 style="font-size: 1.5em; text-align: center;">E-Commercial</h2>
             <div id="carousel-e-commercial-data" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <!-- Slide 1 -->
@@ -418,7 +415,7 @@
             </div>
 
 
-            <h2>User-Interface</h2>
+            <h2 style="font-size: 1.5em; text-align: center;">User-Interface</h2>
             <div id="carousel-ui-data" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <!-- Slide 1 -->
@@ -502,7 +499,6 @@
               </a>
             </div>
 
-
             <!-- End Performance Evaluation and Visualization Section -->
           </div>
         </div>
@@ -522,17 +518,17 @@
 
 
 
- <section id="Hypotheses" class="about">
-    <div class="container">
-      <div class="row no-gutters">
-        <div class="content col-xl-12 d-flex align-items-stretch" data-aos="fade-right">
-          <div class="content" style="text-align: justify;">
+<!-- <section id="Ablation" class="about">-->
+<!--    <div class="container">-->
+<!--      <div class="row no-gutters">-->
+<!--        <div class="content col-xl-12 d-flex align-items-stretch" data-aos="fade-right">-->
+<!--          <div class="content" style="text-align: justify;">-->
 
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </section>-->
 
    
 
